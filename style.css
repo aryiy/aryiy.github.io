@@ -1,3 +1,45 @@
-#ary {
-    position: fixed;
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200&display=swap');
+
+
+:root {
+    --ary-red: #f0301f;
+    --dark-bg: #222A35;
+    --dark-txt: #FBF1C7;
 }
+
+body {
+    background-color: var(--dark-bg);
+    overflow: hidden;
+}
+
+
+header {
+    margin: 2rem;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex: 1 1 auto;
+}
+#ary {
+    display: flex;
+    position: relative;
+}
+#h_title {
+    display: flex;
+    font-family: 'Barriecito', sans-serif;
+    font-size: 3rem;
+    color: var(--ary-red);
+}
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: "Grandstander", sans-serif;
+    color: var(--dark-txt)
+}
+

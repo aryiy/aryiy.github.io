@@ -6,9 +6,12 @@
 
 
 :root {
-    --ary-red: #ff3115;
+    --ary-red: #f0301f;
+    --dark-bg: #222A35;
+    --dark-txt: #FBF1C7;
+    /* --ary-red: #ff3115;
     --dark-bg: #fede0f;
-    --dark-txt: #f121f1;
+    --dark-txt: #f121f1; */
 }
 
 body {

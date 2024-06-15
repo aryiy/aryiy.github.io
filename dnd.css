@@ -23,7 +23,7 @@ header, .bod, .stats{
 body {
     background-color: var(--dark-bg);
     color: var(--dark-txt);
-    margin: 0px 7rem;
+    margin: 0px 6rem;
     font-family: 'Itim', sans-serif;
     /* border: solid 0.2rem black; */
 }
@@ -90,7 +90,7 @@ header{
 .charbox{
     flex: 0 1 auto;
     background-color: #1D2021;
-    max-height: 550px;
+    max-height: 530px;
     padding: 0.3rem;
     border-radius: 5%;
     box-shadow: -5px 5px 5px black;

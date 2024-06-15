@@ -23,7 +23,7 @@ header, .bod, .stats{
 body {
     background-color: var(--dark-bg);
     color: var(--dark-txt);
-    margin: 0px 10rem;
+    margin: 0px 8rem;
     font-family: 'Itim', sans-serif;
     /* border: solid 0.2rem black; */
 }

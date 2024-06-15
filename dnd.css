@@ -1,0 +1,151 @@
+
+/* Macondo - Nice and fancy yet readable*/
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/* Itim -good, round and cute */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* Delius Swash Caps - nice and swirly*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+:root {
+    --dark-bg: #373737;
+    --dark-txt: #9A7FB0;
+}
+
+.default-text{
+    font-size: 1rem;
+}
+
+header, .bod, .stats{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--dark-txt);
+    margin: 0rem 6rem;
+    /* border: solid 0.2rem black; */
+}
+
+header{
+    background-color: hsla(0, 0%, 22%, 80%);
+    padding: 0.5rem;
+    padding-bottom: 0px;
+    justify-content: space-between;
+    position: sticky;
+    top: -20px;
+}
+
+.name{
+    font-family: 'Macondo', sans-serif;
+    font-size: 2.2rem;
+    margin: 0.5rem;
+    margin-bottom: -0.4rem;
+    /* background-color: hsla(340, 57%, 64%, 50%);  */
+}
+
+#fl{
+    font-size:3.5rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.species{
+    font-size: 1.3rem;
+    font-family: 'Delius Swash Caps', 'Sriracha', sans-serif;
+    margin: 0.5rem;
+    margin-top: 0px;
+}
+
+.class-lvl{
+    font-family: 'Itim', sans-serif;
+    text-align: center;
+}
+
+.class-lvl h1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.class-lvl h2{
+    font-family: 'Delius Swash Caps', sans-serif;
+    font-size: 1.2rem;
+    padding-top: 0px;
+    margin-top: 0px;;
+}
+
+#lv{
+    padding: 0px 0.5rem;
+    border: 0.2rem solid var(--dark-txt);
+    border-radius: 50%;;
+}
+
+.bod{
+    margin: 0.3rem;
+    padding: 0.5rem;
+}
+
+.charbox{
+    flex: 0 1 auto;
+    background-color: #1D2021;
+    max-height: 400px;
+    padding: 0.2rem;
+    border-radius: 5%;
+    box-shadow: -5px 5px 5px black;
+
+    /* border: solid 2px aquamarine; */
+}
+
+.stats h1, .stats h2,.stats h3, points h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.stats{
+    flex: 1 0 auto;
+    flex-direction: column;
+    font-family: 'Itim', sans-serif;
+    margin: 1rem;
+    max-height: 300px;
+
+    /* border: solid 2px palevioletred; */
+}
+
+#skills{
+    font-family: 'Itim', sans-serif;
+}
+#skills h2{
+    padding: 0px;
+    margin-top: 0.2rem;
+    margin-bottom: 0px;
+}
+
+.hp h2{
+    margin-top: -0.3rem;
+}
+
+.pro {
+    color: #79C0AA;
+}
+
+#attributes, #saving-throws{
+    padding-top: 0.5rem;
+}
+
+table{
+    background-color: #1D2021;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.small-text{
+    font-size: 0.75rem;
+    padding-right: 0.2rem;
+}
+
+#throws-attributes{
+    display: flex;
+}
+#throws-attributes > *{
+    padding-right: 3rem;
+}

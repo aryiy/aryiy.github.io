@@ -23,7 +23,7 @@ header, .bod, .stats{
 body {
     background-color: var(--dark-bg);
     color: var(--dark-txt);
-    margin: 0rem 6rem;
+    margin: 0rem 9rem;
     /* border: solid 0.2rem black; */
 }
 

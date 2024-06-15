@@ -23,12 +23,13 @@ header, .bod, .stats{
 body {
     background-color: var(--dark-bg);
     color: var(--dark-txt);
-    margin: 0rem 9rem;
+    margin: 0px 10rem;
+    font-family: 'Itim', sans-serif;
     /* border: solid 0.2rem black; */
 }
 
 header{
-    background-color: hsla(0, 0%, 22%, 80%);
+    background-color: #373737;
     padding: 0.5rem;
     padding-bottom: 0px;
     justify-content: space-between;
@@ -38,14 +39,14 @@ header{
 
 .name{
     font-family: 'Macondo', sans-serif;
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin: 0.5rem;
     margin-bottom: -0.4rem;
     /* background-color: hsla(340, 57%, 64%, 50%);  */
 }
 
 #fl{
-    font-size:3.5rem;
+    font-size:4rem;
     position: relative;
     top: 0.5rem;
 }
@@ -58,7 +59,7 @@ header{
 }
 
 .class-lvl{
-    font-family: 'Itim', sans-serif;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -83,13 +84,14 @@ header{
 .bod{
     margin: 0.3rem;
     padding: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .charbox{
     flex: 0 1 auto;
     background-color: #1D2021;
-    max-height: 400px;
-    padding: 0.2rem;
+    max-height: 550px;
+    padding: 0.3rem;
     border-radius: 5%;
     box-shadow: -5px 5px 5px black;
 
@@ -104,16 +106,12 @@ header{
 .stats{
     flex: 1 0 auto;
     flex-direction: column;
-    font-family: 'Itim', sans-serif;
-    margin: 1rem;
-    max-height: 300px;
-
+    margin: 2rem;
+    max-height: 500px;
     /* border: solid 2px palevioletred; */
 }
 
-#skills{
-    font-family: 'Itim', sans-serif;
-}
+
 #skills h2{
     padding: 0px;
     margin-top: 0.2rem;
@@ -132,10 +130,24 @@ header{
     padding-top: 0.5rem;
 }
 
-table{
+.table{
     background-color: #1D2021;
     padding: 0.5rem;
     border-radius: 1rem;
+}
+
+#inspo{
+    background-color: #1D2021;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    max-width: fit-content;
+    padding: 0.2rem;
+}
+
+td{
+    text-align: center;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 }
 
 .small-text{
@@ -148,4 +160,21 @@ table{
 }
 #throws-attributes > *{
     padding-right: 3rem;
+}
+
+#proficiencies, #languages{
+    font-size: 1.2rem;
+}
+
+#proficiencies h2, #languages h2{
+    margin-bottom: 0.2rem;
+}
+
+#proficiencies li, #languages li{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+#proficiencies p{
+    padding-left: 3rem;
 }
